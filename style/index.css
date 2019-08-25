@@ -1,0 +1,135 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+
+.contenedor {
+  padding: 0;
+  margin: 0;
+}
+
+.menu {
+  height: 100vh;
+  min-height: 100%;
+  position: relative;
+  overflow: auto;
+}
+
+.menu__encabezado {
+  background: linear-gradient(45deg, #f04242, #f76e6e);
+  height: 10vh;
+}
+
+.menu__encabezado .btnmenu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+}
+
+.menu__encabezado .title {
+  text-align: start;
+  margin: auto;
+  color: white;
+}
+
+.menu__item {
+  height: 80vh;
+  background: url(../img/bordes.png) center;
+}
+
+.menu__item nav {
+  width: 100%;
+}
+
+.menu__item nav ul {
+  margin-top: 50%;
+}
+
+.menu__item nav ul a {
+  color: black;
+  text-decoration: none;
+}
+
+.menu__item nav ul a:hover {
+  text-decoration: none;
+}
+
+.menu__item nav ul li {
+  list-style: none;
+  padding: .8rem;
+  color: black;
+  margin-top: 5px;
+}
+
+.menu__item nav ul li:hover {
+  background: #f2f2f2;
+  border-left: 5px solid #f04242;
+}
+
+.menu__perfil {
+  height: 10vh;
+  width: auto;
+  background: linear-gradient(45deg, #f04242, #f76e6e);
+  position: relative;
+  left: 0;
+}
+
+.menu__perfil .foto {
+  height: 50px;
+  width: auto;
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+}
+
+.menu__perfil .nombre {
+  font-size: 1rem;
+  text-align: center;
+  color: white;
+  display: block;
+  margin: auto;
+}
+
+.menu__perfil .salir {
+  display: block;
+  margin: auto;
+  color: white;
+}
+
+.btnmenu {
+  height: 100%;
+}
+
+.btnmenu a {
+  color: white;
+}
+
+.encabezado {
+  background: #212c31;
+  height: 10vh;
+  width: 100vw;
+}
+
+.item-areas {
+  padding: 1.1rem;
+  color: white;
+}
+
+.item-areas:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.contenido {
+  height: 90vh;
+  width: 100px;
+  background: url("../img/orkin.png") no-repeat center #f2f2f2;
+}
+/*# sourceMappingURL=index.css.map */

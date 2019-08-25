@@ -1,0 +1,15 @@
+.encabezado{
+    background: hsl(199, 19, 16);
+    height: 10vh;
+    width: 100vw;
+}
+.item-areas{
+    // display: inline-block;
+    padding: 1.1rem;
+    color: white;
+
+    &:hover{
+        text-decoration: none;
+        color: white;
+    }
+}
