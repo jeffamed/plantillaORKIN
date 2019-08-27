@@ -7,23 +7,26 @@
 
 body {
   height: 100vh;
+  max-height: 100%;
 }
 
 .contenedor {
   padding: 0;
   margin: 0;
+  max-width: auto;
 }
 
 .menu {
   height: 100vh;
-  min-height: 100%;
+  max-height: 100%;
   position: relative;
   overflow: auto;
 }
 
 .menu__encabezado {
-  background: linear-gradient(45deg, #f04242, #f76e6e);
+  background: linear-gradient(45deg, #ec1313, #f53d3d);
   height: 10vh;
+  max-height: 10%;
 }
 
 .menu__encabezado .btnmenu {
@@ -41,7 +44,9 @@ body {
 
 .menu__item {
   height: 80vh;
+  max-height: 80%;
   background: url(../img/bordes.png) center;
+  background-size: 90vh auto;
 }
 
 .menu__item nav {
@@ -75,8 +80,9 @@ body {
 
 .menu__perfil {
   height: 10vh;
+  max-height: 10%;
   width: auto;
-  background: linear-gradient(45deg, #f04242, #f76e6e);
+  background: linear-gradient(45deg, #ec1313, #f53d3d);
   position: relative;
   left: 0;
 }
@@ -115,6 +121,7 @@ body {
   background: #212c31;
   height: 10vh;
   width: 100vw;
+  max-width: 100%;
 }
 
 .item-areas {
@@ -129,7 +136,21 @@ body {
 
 .contenido {
   height: 90vh;
-  width: 100px;
-  background: url("../img/orkin.png") no-repeat center #f2f2f2;
+  max-height: 100%;
+  max-width: 100%;
+  background: url("../img/orkin.png") no-repeat center, url("../img/moscas.png") no-repeat bottom right, #f2f2f2;
+}
+
+.contenido .etiqueta {
+  height: 5vh;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ec1313), to(#f47171));
+  background: linear-gradient(180deg, #ec1313, #f47171);
+  border-radius: 0 1vh 1vh 0;
+}
+
+.contenido .etiqueta__title {
+  margin-top: 1vh;
+  text-align: center;
+  color: white;
 }
 /*# sourceMappingURL=index.css.map */

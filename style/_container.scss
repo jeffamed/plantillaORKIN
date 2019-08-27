@@ -1,8 +1,20 @@
 .contenido{
-    // border: 1px solid green;
-    height: 90vh;
-    width: 100px;
-    background: url('../img/orkin.png') no-repeat center 
-                // url('../img/plaga1.png') no-repeat top left
+    height: 90vh;  
+    max-height: 100%;
+    max-width: 100%;
+    background: url('../img/orkin.png') no-repeat center,
+                url('../img/moscas.png') no-repeat bottom right,
               hsla(0,1,95,90%);
+
+    .etiqueta{
+      height: 5vh;
+      background: linear-gradient(180deg, hsl(0,85,50), hsl(0,85,70));
+      border-radius: 0 1vh 1vh 0;
+
+      &__title{
+        margin-top: 1vh;
+        text-align: center;
+        color: white;
+      }
+    }
 }

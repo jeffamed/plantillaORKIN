@@ -6,11 +6,15 @@
 
 body{
     height: 100vh;
+    max-height: 100%;
 }
 
 .contenedor{
     padding: 0;
     margin: 0;
+    // width: auto;
+    // max-height: 80%;
+    max-width: auto;
 }
 
 @import "menu";
