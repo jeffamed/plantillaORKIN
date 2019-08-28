@@ -54,7 +54,7 @@ body {
 }
 
 .menu__item nav ul {
-  margin-top: 50%;
+  margin-top: 70%;
 }
 
 .menu__item nav ul a {
@@ -152,5 +152,25 @@ body {
   margin-top: 1vh;
   text-align: center;
   color: white;
+}
+
+.contenido .cuerpo .card-body {
+  height: 60vh;
+}
+
+.contenido .cuerpo .image-referent {
+  display: block;
+  margin: 0 auto;
+  height: 150px;
+  width: auto;
+}
+
+.contenido .cuerpo .description {
+  padding: .25rem;
+}
+
+.contenido .cuerpo .boton-plus {
+  display: block;
+  margin: 0 auto;
 }
 /*# sourceMappingURL=index.css.map */

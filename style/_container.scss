@@ -16,5 +16,25 @@
         text-align: center;
         color: white;
       }
+
+    }
+    .cuerpo{
+      .card-body{
+        height: 60vh;
+      }
+      .image-referent{
+        display: block;
+        margin: 0 auto;
+        height: 150px;
+        width: auto;
+      }
+      .description{
+        padding: .25rem;
+      }
+
+      .boton-plus{
+        display: block;
+        margin: 0 auto;
+      }
     }
 }
